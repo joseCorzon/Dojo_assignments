@@ -1,0 +1,17 @@
+
+h1 {background-color:black;
+    color:White;
+}
+#cloud {color:cyan;}
+h2 {
+    text-align:center;
+    background-color:purple;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+}
+p {
+    background-color:rgb(100, 211, 245);
+    color:rebeccapurple;
+    text-align: right;
+    text-decoration: underline;
+}
