@@ -1,0 +1,34 @@
+#search {
+    color: rgb(31, 187, 122);
+    background-color: white;
+    border:2px solid aqua;
+    box-shadow: none;
+    width: 100px;
+    border-radius: 25px;
+    
+    
+}
+#plus {
+    border-radius: 50%;
+    background-color:aquamarine;
+    border-color:aquamarine;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    transition: 1s;
+    
+}
+#plus:hover {
+    background-color: blue;
+    transition: 1s;
+}
+#create {
+    color: white;
+    background-color:blue;
+    box-shadow: 5px 5px 5px black;
+    border-color: rgb(0, 0, 0);
+}
