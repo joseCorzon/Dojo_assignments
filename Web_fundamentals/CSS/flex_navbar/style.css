@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.nav-title {
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    gap: 1.5em;
+    color: rgb(189, 170, 170);
+    display: flex;
+
+
+}
+
+.active:hover {
+    color: White;
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    box-shadow: 5px 2px 2px black;
+
+}
+
