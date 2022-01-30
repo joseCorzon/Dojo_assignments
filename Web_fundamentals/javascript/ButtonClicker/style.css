@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    min-height: 700px;
+}
+
+nav {
+    background-color: grey;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: space-between;
+    width: 70%;
+    color: black;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+}
+
+.large {
+    font-size: 2em;
+}
+
+.yellowBtn {
+    background-color: rgb(248, 223, 0);
+    color: black;
+    box-shadow: 3px 2px 2px black;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.left-side {
+    flex: 2;
+}
+
+.right-side {
+    flex: 1;
+    border: 3px solid black;
+    align-items: center;
+    margin: 30px 120px 30px 0px;
+    padding: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    font-size: 1.5em;
+}
+
+.main {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    margin: 30px 120px;
+    padding: 20px 0px;
+}
+
+#greenBtn {
+    background-color: rgb(67, 179, 85);
+    color: black;
+    box-shadow: 3px 2px 2px black;
+    padding: 5px 15px;
+    border: 2px solid black;
+    font-size: .8em;
+}
+
+input {
+    border: 2px solid black;
+}
+
+#login {
+    background-color: rgb(19, 0, 189);
+    color: white;
+    box-shadow: 3px 2px 2px black;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.word {
+    flex: 1;
+    text-align: center;
+}
+
+.definition {
+    flex: 2;
+}

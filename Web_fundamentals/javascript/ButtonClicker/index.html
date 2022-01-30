@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="large">Dojonary</div>
+            <input type="text" placeholder="Search..">
+            <button id="login" onclick="logOff(this)">Login</button>
+        </nav>
+        <div class="main">
+            <section class="left-side">
+                <div class="card">
+                    <div class="word">
+                        <div class="large">ninja</div>
+                        <div><i>noun</i></div>
+                        <div>Plural:<i> ninjas</i></div>
+                        <button class="yellowBtn" onclick="alert('Ninja was liked!')">13 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A practioner skilled in the <a href="">japanese art of </a><a href=""> ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="word">
+                        <div class="large">ninja</div>
+                        <div><i>noun</i></div>
+                        <div>Plural: <i>ninjas</i></div>
+                        <button class="yellowBtn">37 likes</button>
+                    </div>
+                    <div class="definition">
+                        <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </section>
+            <aside class="right-side">
+                <p>Dojonary is defined by <strong>you</strong></p>
+                <button id="greenBtn" onclick="disappear(this)">Add Definition</button>
+            </aside>
+        </div>
+
+
+    </div>
+</body>
+<script src="./buttonClicker.js"></script>
+
+</html>
